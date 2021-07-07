@@ -1,8 +1,7 @@
-import numpy as np
 import torch
 import torch.nn as nn
 import pytorch_lightning as pl
-from torchdyn.models import NeuralDE, NeuralSDE
+from torchdyn.models import NeuralDE
 
 
 class Oscillator(pl.LightningModule):
